@@ -458,9 +458,9 @@ class InvoiceApp:
 
         # Invoice Header
         # pdf.cell(170, 10, "CASTLE MARKET LTD", ln=True, align='C')
-        pdf.cell(170, 10, f"CASTLE MARKET LTD", ln=True)
-        pdf.cell(170, 10, f"790 Harrow Road, wembley, HA0 3EL", ln=True)
-        pdf.cell(170, 10, f"Phone: 07859093493", ln=True)
+        pdf.cell(170, 10, f"GOLDEN LOOK L.L.C", ln=True)
+        pdf.cell(170, 10, f"A240, AL KARAMA SHOPPING COMPLEX, AL KARAMA, DUBAI UAE", ln=True)
+        pdf.cell(170, 10, f"Phone: ---------", ln=True)
         pdf.ln(10)
 
         # Delivery Note Information
@@ -547,9 +547,9 @@ class InvoiceApp:
 
         # Invoice Header
         # pdf.cell(170, 10, "CASTLE MARKET LTD", ln=True, align='C')
-        pdf.cell(170, 10, f"CASTLE MARKET LTD", ln=True)
-        pdf.cell(170, 10, f"790 Harrow Road, wembley, HA0 3EL", ln=True)
-        pdf.cell(170, 10, f"Phone: 07859093493", ln=True)
+        pdf.cell(170, 10, f"GOLDEN LOOK L.L.C", ln=True)
+        pdf.cell(170, 10, f"A 240 AL KARAMA SHOPPING COMPLEX, AL KARAMA, DUBAI, UAE", ln=True)
+        pdf.cell(170, 10, f"Phone: ------------", ln=True)
         pdf.ln(10)
         # Invoice Header with Invoice No on the left and Date on the right
         pdf.cell(85, 10, f"Invoice No: {invoice_id}", border=0, align='L')  # Left-aligned
@@ -620,9 +620,9 @@ class InvoiceApp:
         pdf.set_font("Arial", size=12)
 
         # Invoice Header
-        pdf.cell(170, 10, f"CASTLE MARKET LTD", ln=True)
-        pdf.cell(170, 10, f"790 Harrow Road, wembley, HA0 3EL", ln=True)
-        pdf.cell(170, 10, f"Phone: 07859093493", ln=True)
+        pdf.cell(170, 10, f"GOLDEN LOOK TRADING L.L.C", ln=True)
+        pdf.cell(170, 10, f"A 240 AL KARAMA SHOPPING COMPLEX, AL KARAMA, DUBAI, UAE", ln=True)
+        pdf.cell(170, 10, f"Phone: -------", ln=True)
         pdf.ln(10)
 
         pdf.cell(85, 10, f"Invoice No: {invoice_id}", border=0, align='L')
