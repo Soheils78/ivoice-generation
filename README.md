@@ -1,7 +1,7 @@
 # Invoice Generation System
 
-This is my small project for an invoice generation system using Python.  
-I made this project as a practice to improve my coding and Python skills.
+This is a small project for an invoice generation system using Python.  
+I developed this project for **Golden Look L.L.C**, a company based in Dubai.
 
 The project uses:
 - **Tkinter** → for the user interface (GUI)
@@ -47,5 +47,7 @@ The project uses:
 
 ## Author
 
-This project was implemented by Soheil Salemi.
+This project was implemented by **Soheil Salemi** for **Golden Look L.L.C** (Dubai).  
+I have the right and permission to share this project on my GitHub.
+
 Thank you for checking my project!
